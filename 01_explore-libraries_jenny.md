@@ -1,7 +1,7 @@
 01\_explore-libraries\_jenny.R
 ================
 Joaquin
-Wed Jan 31 14:05:29 2018
+Wed Jan 31 14:24:03 2018
 
 ``` r
 ## how jenny might do this in a first exploration
@@ -214,3 +214,40 @@ ipt2 %>%
     ##    <lgl> <int>     <dbl>
     ## 1  FALSE   133 0.5473251
     ## 2   TRUE   110 0.4526749
+
+``` r
+sessionInfo()
+```
+
+    ## R version 3.4.2 (2017-09-28)
+    ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
+    ## Running under: macOS High Sierra 10.13.2
+    ## 
+    ## Matrix products: default
+    ## BLAS: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRblas.0.dylib
+    ## LAPACK: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRlapack.dylib
+    ## 
+    ## locale:
+    ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+    ## 
+    ## attached base packages:
+    ## [1] stats     graphics  grDevices utils     datasets  methods   base     
+    ## 
+    ## other attached packages:
+    ##  [1] bindrcpp_0.2    forcats_0.2.0   stringr_1.2.0   dplyr_0.7.4    
+    ##  [5] purrr_0.2.4     readr_1.1.1     tidyr_0.7.2     tibble_1.3.4   
+    ##  [9] ggplot2_2.2.1   tidyverse_1.2.1 fs_1.1.0       
+    ## 
+    ## loaded via a namespace (and not attached):
+    ##  [1] Rcpp_0.12.14     cellranger_1.1.0 compiler_3.4.2   plyr_1.8.4      
+    ##  [5] bindr_0.1        tools_3.4.2      digest_0.6.12    lubridate_1.7.1 
+    ##  [9] jsonlite_1.5     evaluate_0.10.1  nlme_3.1-131     gtable_0.2.0    
+    ## [13] lattice_0.20-35  pkgconfig_2.0.1  rlang_0.1.4      psych_1.7.8     
+    ## [17] cli_1.0.0        rstudioapi_0.7   yaml_2.1.14      parallel_3.4.2  
+    ## [21] haven_1.1.0      xml2_1.1.1       httr_1.3.1       knitr_1.17      
+    ## [25] hms_0.4.0        rprojroot_1.2    grid_3.4.2       glue_1.2.0      
+    ## [29] R6_2.2.2         readxl_1.0.0     foreign_0.8-69   rmarkdown_1.8   
+    ## [33] modelr_0.1.1     reshape2_1.4.2   magrittr_1.5     backports_1.1.1 
+    ## [37] scales_0.5.0     htmltools_0.3.6  rvest_0.3.2      assertthat_0.2.0
+    ## [41] mnormt_1.5-5     colorspace_1.3-2 stringi_1.1.6    lazyeval_0.2.1  
+    ## [45] munsell_0.4.3    broom_0.4.3      crayon_1.3.4
