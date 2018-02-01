@@ -7,3 +7,5 @@ This line I added from GitHub.
 
 
 [01_explore-libraries_jenny.md](01_explore-libraries_jenny.md)
+
+I had coffee.
