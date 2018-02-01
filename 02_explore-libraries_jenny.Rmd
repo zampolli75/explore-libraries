@@ -1,18 +1,27 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 
 how jenny might do this in a first exploration
 purposely leaving a few things to change later!
 
-#' Which libraries does R search for packages?
+Which libraries does R search for packages?
+
+```{r}
 .libPaths()
+```
 
 ## let's confirm the second element is, in fact, the default library
+
+```{r}
 .Library
 library(fs)
 path_real(.Library)
+```
+
 
 #' Installed packages
 library(tidyverse)
