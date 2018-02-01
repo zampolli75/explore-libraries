@@ -4,6 +4,7 @@ editor_options:
   chunk_output_type: console
 ---
 
+line added from Github
 
 how jenny might do this in a first exploration
 purposely leaving a few things to change later!
